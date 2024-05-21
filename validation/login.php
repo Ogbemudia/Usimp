@@ -142,7 +142,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST" && $_POST['crud_req'] == "login"){
                            'iss' => 'localhost/unben/validation',
                            'aud' => 'localhost/unben/'
                        );
-                       $key = 'GiZkey%visions6689#king%';
+                       $key = 'key%visions6689#king%';
                        $alg = 'HS512';
                        $jwt = JWT::encode($payload, $key, $alg);
                        $token = $jwt;
