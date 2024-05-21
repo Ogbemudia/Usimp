@@ -120,9 +120,9 @@ function    defermentOfAnnualLeave($mailSend, $mailS, $mailB, $fromName, $bursar
     //Set port to connect smtp
     $mail -> Port = "587";
     //Set gmail username
-    $mail -> Username = "kingshome40@gmail.com";
+    $mail -> Username = "";
     //Set gmail password
-    $mail -> Password = "phcegssrvuhwkjxg";
+    $mail -> Password = "";
     $mail -> isHTML(true);
     //Add reciving email
     $mail -> addAddress($mailSend);
